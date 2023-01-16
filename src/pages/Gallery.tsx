@@ -3,7 +3,7 @@ import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonFab, IonFabBut
 import { camera, trash, close } from 'ionicons/icons';
 import { usePhotoGallery, UserPhoto } from '../hooks/usePhotoGallery';
 
-const Tab2: React.FC = () => {
+export const Gallery: React.FC = () => {
   const { deletePhoto, photos, takePhoto } = usePhotoGallery();
   const [photoToDelete, setPhotoToDelete] = useState<UserPhoto>();
 
@@ -61,5 +61,3 @@ const Tab2: React.FC = () => {
     </IonPage>
   );
 };
-
-export default Tab2;

@@ -20,7 +20,7 @@ After the user navigates to Tab 2 (Photos), they can tap/click on the camera but
   * Storing photo gallery metadata: [Preferences API](https://capacitor.ionicframework.com/docs/apis/preferences)
 
 ## Project Structure
-* Tab2 (Photos) (`src/pages/Tab2.tsx`): Photo Gallery UI and basic logic.
+* Gallery (Photos) (`src/pages/Gallery.tsx`): Photo Gallery UI and basic logic.
 * usePhotoGallery Hook (`src/hooks/usePhotoGallery.ts`): Logic encapsulating Capacitor APIs, including Camera, Filesystem, and Preferences.
 
 ## How to Run
@@ -29,7 +29,6 @@ After the user navigates to Tab 2 (Photos), they can tap/click on the camera but
 
 0) Install Ionic if needed: `npm install -g @ionic/cli`.
 1) Clone this repository.
-2) In a terminal, change directory into the repo: `cd photo-gallery-capacitor-react`.
-3) Install all packages: `npm install`.
-4) Run on the web: `ionic serve`.
-5) Run on iOS or Android: See [here](https://ionicframework.com/docs/building/running).
+2) Install all packages: `npm install`.
+3) Run on the web: `ionic serve`.
+4) Run on iOS or Android: See [here](https://ionicframework.com/docs/building/running).
